@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teams</title>
+  <link rel="stylesheet" href="./../CSS/Allgemein.css">
+  <link rel="stylesheet" href="./../CSS/Nav.css">
+  <link rel="stylesheet" href="./../CSS/Teams.css">
+  <link rel="stylesheet" href="./../CSS/footer.css">
+</head>
+
+<body>
+  <nav>
+    <div class="nav-left">
+      <a href="https://www.formula1.com"><img src="./../Fotos/Icons/NAV/Formular1_Logo_navi.png" alt="Logo"
+          width="100px" height="90px"></a>
+      <a href="https://www.formula1.com" class="nav-name">Formel 1</a>
+    </div>
+    <ul class="nav-menu">
+      <li><a href="./HTML.html">Home</a></li>
+      <li><a href="./Saison.html">Saison</a>
+        <ul class="sub-menu">
+          <li>
+            <a href="./Saison.html">Saison</a>
+          </li>
+          <ul class="Saison-Drop-Down">
+            <li><a href="./Saison.html#Bahrain">1. Bahrain</a></li>
+            <li><a href="./Saison.html#Saudi-Arabien">2. Saudi-Arabien</a></li>
+            <li><a href="./Saison.html#Australien">3. Australien</a></li>
+            <li><a href="./Saison.html#Aserbaidschan">4. Aserbaidschan</a></li>
+            <li><a href="./Saison.html#Miami">5. Miami</a></li>
+            <li><a href="./Saison.html#Emilia-Romagna">6. Emilia-Romagna</a></li>
+            <li><a href="./Saison.html#Monaco">7. Monaco</a></li>
+            <li><a href="./Saison.html#Spanien">8. Spanien</a></li>
+            <li><a href="./Saison.html#Kanada">9. Kanada</a></li>
+            <li><a href="./Saison.html#Österreich">10. Österreich</a></li>
+            <li><a href="./Saison.html#Großbritannien">11. Großbritannien</a></li>
+            <li><a href="./Saison.html#Ungarn">12. Ungarn</a></li>
+            <li><a href="./Saison.html#Belgien">13. Belgien</a></li>
+            <li><a href="./Saison.html#Niederlande">14. Niederlande</a></li>
+            <li><a href="./Saison.html#Italien">15. Italien</a></li>
+            <li><a href="./Saison.html#Singapur">16. Singapur</a></li>
+            <li><a href="./Saison.html#Japan">17. Japan</a></li>
+            <li><a href="./Saison.html#Katar">18. Katar</a></li>
+            <li><a href="./Saison.html#USA">19. USA</a></li>
+            <li><a href="./Saison.html#Mexiko">20. Mexiko</a></li>
+            <li><a href="./Saison.html#São-Paulo">21. São Paulo</a></li>
+            <li><a href="./Saison.html#Las-Vegas">22. Las Vegas</a></li>
+            <li><a href="./Saison.html#Abu-Dhabi">23. Abu Dhabi</a></li>
+          </ul>
+
+        </ul>
+      <li>
+        <a href="./Teams.html">Teams</a>
+        <ul class="sub-menu">
+          <li><a href="./Teams.html#Mercedes">1. Mercedes</a></li>
+          <li><a href="./Teams.html#Red-Bull">2. Red Bull</a></li>
+          <li><a href="./Teams.html#Ferrari">3. Ferrari</a></li>
+          <li><a href="./Teams.html#McLaren">4. McLaren</a></li>
+          <li><a href="./Teams.html#Aston-Martin">5. Aston Martin</a></li>
+          <li><a href="./Teams.html#Alpine">6. Alpine</a></li>
+          <li><a href="./Teams.html#Alpha-Tauri">7. AlphaTauri</a></li>
+          <li><a href="./Teams.html#Alfa-Romeo">8. Alfa Romeo</a></li>
+          <li><a href="./Teams.html#Haas">9. Haas</a></li>
+          <li><a href="./Teams.html#Williams">10. Williams</a></li>
+        </ul>
+      </li>
+
+      <li><a href="./Fahrer.html">Fahrer</a>
+        <ul class="sub-menu">
+          <li><a href="./Fahrer.html#Mercedes">1. Mercedes</a></li>
+          <li><a href="./Fahrer.html#Red-Bull">2. Red Bull</a></li>
+          <li><a href="./Fahrer.html#Ferrari">3. Ferrari</a></li>
+          <li><a href="./Fahrer.html#McLaren">4. McLaren</a></li>
+          <li><a href="./Fahrer.html#Aston-Martin">5. Aston Martin</a></li>
+          <li><a href="./Fahrer.html#Alpine">6. Alpine</a></li>
+          <li><a href="./Fahrer.html#Alpha-Tauri">7. AlphaTauri</a></li>
+          <li><a href="./Fahrer.html#Alfa-Romeo">8. Alfa Romeo</a></li>
+          <li><a href="./Fahrer.html#Haas">9. Haas</a></li>
+          <li><a href="./Fahrer.html#Williams">10. Williams</a></li>
+        </ul>
+      </li>
+      <div id="platzhalter"></div>
+    </ul>
+  </nav>
+
+  <div id="content">
+
+    <div class="gewinnspiel">
+      <a href="./Gewinnspiel.html">Gewinnspiel</a>
+    </div>
+
+    <div id="box">
+      <div id="MERCEDES">
+        <div class="team">
+          <div class="logo">
+            <img src="./../Fotos/Teams/1.Mercedes/mercedes.avif" alt="Mercedes" width="170vw" height="80vh">
+            <h2 id="Mercedes">1. Mercedes</h2>
+          </div>
+          <div class="team-box">
+            <div class="infos">
+              <div id="headlines">
+                <h3>Full Team Name</h3>
+                <h3>Base</h3>
+                <h3>Team Chief</h3>
+                <h3>Technical Chief</h3>
+                <h3>Chassis</h3>
+                <h3>Power Unit</h3>
+                <h3>First Team Entry</h3>
+                <h3>World Championships</h3>
+                <h3>Highest Race Finish</h3>
+                <h3>Pole Positions</h3>
+                <h3>Fastest Laps</h3>
+              </div>
+              <div id="text">
+                <p>Mercedes-AMG PETRONAS F1 Team</p>
+                <p>Brackley, United Kingdom</p>
+                <p>Toto Wolff</p>
+                <p>James Allison</p>
+                <p>W14</p>
+                <p>Mercedes</p>
+                <p>1970</p>
+                <p>8</p>
+                <p>1 (x116)</p>
+                <p>128</p>
+                <p>93</p>
+              </div>
+            </div>
+            <div class="picture">
+              <div id="pic1">
+                <img src="./../Fotos/Teams/1.Mercedes/Toto_Wolff_Header__1_.png" alt="Teamchef">
+                <p>Toto Wolff</p>
+              </div>
+              <div id="pic2">
+                <img src="./../Fotos/Teams/1.Mercedes/1677069334466.avif" alt="Driver 1">
+                <p>George Russell</p>
+              </div>
+              <div id="pic3">
+                <img src="./../Fotos/Teams/1.Mercedes/1677069594164.avif" alt="Driver 2">
+                <p>Lewis Hamilton</p>
+              </div>
+            </div>
+            <br>
+          </div>
+          <div class="car">
+            <h4>Car:</h4>
+            <div id="photocar">
+              <img src="./../Fotos/Teams/1.Mercedes/1035512.jpg" alt="car">
+            </div>
+            <div>
+            <div id="textcar">
+              <p>Das Formel-1-Auto von Mercedes verkörpert Dominanz und technische Brillanz. Mit einer beeindruckenden
+                Erfolgsgeschichte hat Mercedes die Welt des Motorsports geprägt. Das innovative Design vereint
+                beeindruckende Aerodynamik mit leistungsstarker Antriebstechnologie.</p>
+              <p>Die geschwungenen Karosserieelemente sorgen für eine optimale Strömung und verbesserten Abtrieb. Der
+                markante Frontflügel und die seitlichen Aero-Flügel verbessern Stabilität und Manövrierfähigkeit. Das
+                Auto bietet beeindruckende Bodenhaftung, um hohe Geschwindigkeiten mit Präzision zu erreichen.</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="box">
+      <div id="REDBULL">
+        <div class="team">
+          <div class="logo">
+            <img src="./../Fotos/Teams/2.Redbull/red bull.avif" alt="Red Bull" width="170vw" height="80vh">
+            <h2 id="Red-Bull">2. Red Bull</h2>
+          </div>
+          <div class="team-box">
+            <div class="infos">
+              <div id="headlines">
+                <h3>Full Team Name</h3>
+                <h3>Base</h3>
+                <h3>Team Chief</h3>
+                <h3>Technical Chief</h3>
+                <h3>Chassis</h3>
+                <h3>Power Unit</h3>
+                <h3>First Team Entry</h3>
+                <h3>World Championships</h3>
+                <h3>Highest Race Finish</h3>
+                <h3>Pole Positions</h3>
+                <h3>Fastest Laps</h3>
+              </div>
+              <div id="text">
+                <p>Oracle Red Bull Racing</p>
+                <p>Milton Keynes, United Kingdom</p>
+                <p>Christian Horner</p>
+                <p>Pierre Waché</p>
+                <p>RB19</p>
+                <p>Honda RBPT</p>
+                <p>1997</p>
+                <p>5</p>
+                <p>1 (x98)</p>
+                <p>86</p>
+                <p>87</p>
+              </div>
+            </div>
+            <div class="picture">
+              <div id="pic1">
+                <img src="./../Fotos/Teams/2.Redbull/Horner_co_FIA.webp" alt="Teamchef" width="320vw" height="380vh">
+                <p>Christian Horner</p>
+              </div>
+              <div id="pic2">
+                <img src="./../Fotos/Teams/2.Redbull/1677069646195.avif" alt="Driver 1" width="320vw" height="380vh">
+                <p>Max Verstappen</p>
+              </div>
+              <div id="pic3">
+                <img src="./../Fotos/Teams/2.Redbull//1677069773437.avif" alt="Driver 2" width="320vw" height="380vh">
+                <p>Sergio Perez</p>
+              </div>
+            </div>
+            <br>
+          </div>
+          <div class="car">
+            <h4>Car:</h4>
+            <div id="photocar">
+              <img src="./../Fotos/Teams/2.Redbull/Main 1 jpg.jpg" alt="car" width="700vw" height="300vh">
+            </div>
+            <div>
+            <div id="textcar">
+              <p>Das Formel 1-Auto von Red Bull ist zweifellos ein faszinierendes Fahrzeug, das die Herzen von
+                Rennsport-Enthusiasten weltweit höherschlagen lässt. Es verkörpert die Spitze der technologischen
+                Innovation und Ingenieurskunst, die in der Formel 1 erreicht werden kann.</p>
+              <p>Insgesamt ist das Formel 1-Auto von Red Bull ein bemerkenswertes Fahrzeug, das die Grenzen der
+                technologischen Innovation und des Designs in der Welt des Motorsports erweitert. Mit seinem
+                aerodynamischen Design, leistungsstarken Antriesstrang und maßgeschneiderten Cockpit ermöglicht es den
+                Red Bull-Fahrern, ihr volles Potenzial auszuschöpfen und sich auf der Rennstrecke zu behaupten.</p>
+
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Änderungen für das Team 3 (Ferrari) -->
+    <div id="box">
+      <div id="FERRARI">
+        <div class="team">
+          <div class="logo">
+            <img src="./../Fotos/Teams/3.Ferrari/logo-ferrari-18 .avif" alt="Ferrari" width="170vw" height="80vh">
+            <h2 id="Ferrari">3. Ferrari</h2>
+          </div>
+          <div class="team-box">
+            <div class="infos">
+              <div id="headlines">
+                <h3>Full Team Name</h3>
+                <h3>Base</h3>
+                <h3>Team Chief</h3>
+                <h3>Technical Chief</h3>
+                <h3>Chassis</h3>
+                <h3>Power Unit</h3>
+                <h3>First Team Entry</h3>
+                <h3>World Championships</h3>
+                <h3>Highest Race Finish</h3>
+                <h3>Pole Positions</h3>
+                <h3>Fastest Laps</h3>
+              </div>
+              <div id="text">
+                <p>Scuderia Ferrari</p>
+                <p>Maranello, Italy</p>
+                <p>Frédéric Vasseur</p>
+                <p>Enrico Cardile / Enrico Gualtieri</p>
+                <p>SF-23</p>
+                <p>Ferrari</p>
+                <p>1950</p>
+                <p>16</p>
+                <p>1 (x243)</p>
+                <p>244</p>
+                <p>259</p>
+              </div>
+            </div>
+            <div class="picture">
+              <div id="pic1">
+                <img src="./../Fotos/Teams/3.Ferrari/1676398803593.jpg" alt="Teamchef" width="320vw" height="380vh">
+                <p>Frédéric Vasseur</p>
+              </div>
+              <div id="pic2">
+                <img src="./../Fotos/Teams/3.Ferrari/1677069189406.avif" alt="Driver 1" width="320vw" height="380vh">
+                <p>Carlos Sainz</p>
+              </div>
+              <div id="pic3">
+                <img src="./../Fotos/Teams/3.Ferrari/1677069223130.avif" alt="Driver 2" width="320vw" height="380vh">
+                <p>Charles Leclerc</p>
+              </div>
+            </div>
+            <br>
+          </div>
+          <div class="car">
+            <h4>Car:</h4>
+            <div id="photocar">
+              <img src="./../Fotos/Teams/3.Ferrari/318799_w660_h330.jpg" alt="car" width="700vw" height="300vh">
+            </div>
+            <div>
+            <div id="textcar">
+              <p>Ferraris Formel 1-Auto verkörpert Leidenschaft und Perfektion. Das aerodynamische Design minimiert den
+                Luftwiderstand und maximiert die Bodenhaftung. Der leistungsstarke Antriebsstrang liefert
+                Zuverlässigkeit und Spitzenleistung. Das Cockpit bietet Komfort und optimale Kontrolle. Das markante
+                Design mit roter Lackierung und Pferdeemblem ist unverwechselbar. Ferraris Formel 1-Auto ist ein
+                technologisches Meisterwerk, das jahrelange Hingabe widerspiegelt und Fans weltweit begeistert.</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Änderungen für das Team 4 (McLaren) -->
+    <div id="box">
+      <div id="MCLAREN">
+        <div class="team">
+          <div class="logo">
+            <img src="./../Fotos/Teams/4.Mclaren/mclaren.avif" alt="McLaren" width="170vw" height="80vh">
+            <h2 id="McLaren">4. McLaren</h2>
+          </div>
+          <div class="team-box">
+            <div class="infos">
+              <div id="headlines">
+                <h3>Full Team Name</h3>
+                <h3>Base</h3>
+                <h3>Team Chief</h3>
+                <h3>Technical Chief</h3>
+                <h3>Chassis</h3>
+                <h3>Power Unit</h3>
+                <h3>First Team Entry</h3>
+                <h3>World Championships</h3>
+                <h3>Highest Race Finish</h3>
+                <h3>Pole Positions</h3>
+                <h3>Fastest Laps</h3>
+              </div>
+              <div id="text">
+                <p>McLaren F1 Team</p>
+                <p>Woking, United Kingdom</p>
+                <p>Andrea Stella</p>
+                <p>Peter Prodromou / Neil Houldey</p>
+                <p>MCL60</p>
+                <p>Mercedes</p>
+                <p>1966</p>
+                <p>8</p>
+                <p>1 (x183)</p>
+                <p>156</p>
+                <p>162</p>
+              </div>
+            </div>
+            <div class="picture">
+              <div id="pic1">
+                <img src="./../Fotos/Teams/4.Mclaren/Andrea_Stella_TEE9884.jpg" alt="Teamchef" width="320vw"
+                  height="380vh">
+                <p>Andrea Stella</p>
+              </div>
+              <div id="pic2">
+                <img src="./../Fotos/Teams/4.Mclaren/1676983075734.avif" alt="Driver 1" width="320vw" height="380vh">
+                <p>Oscar Piastri</p>
+              </div>
+              <div id="pic3">
+                <img src="./../Fotos/Teams/4.Mclaren/1677069505471.avif" alt="Driver 2" width="320vw" height="380vh">
+                <p>Lando Norris</p>
+              </div>
+            </div>
+            <br>
+          </div>
+          <div class="car">
+            <h4>Car:</h4>
+            <div id="photocar">
+              <img src="./../Fotos/Teams/4.Mclaren/oscar-piastri-mclaren-mcl60-1.jpg" alt="car" width="700vw"
+                height="300vh">
+            </div>
+            <div>
+            <div id="textcar">
+              <p>Das Formel 1-Auto von McLaren verkörpert Innovation, Geschwindigkeit und technische Raffinesse. Das
+                aerodynamische Design maximiert die Performance, der leistungsstarke Antriebsstrang liefert
+                beeindruckende Leistung und das Cockpit bietet optimalen Komfort. Mit seinem markanten Design ist das
+                McLaren-Formel 1-Auto ein Symbol für technische Exzellenz im Motorsport.</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Änderungen für das Team 5 (Aston Martin) -->
+    <div id="box">
+      <div id="ASTONMARTIN">
+        <div class="team">
+          <div class="logo">
+            <img src="./../Fotos/Teams/5.AstonMartin/aston martin.avif" alt="Aston Martin" width="170vw" height="80vh">
+            <h2 id="Aston-Martin">5. Aston Martin</h2>
+          </div>
+          <div class="team-box">
+            <div class="infos">
+              <div id="headlines">
+                <h3>Full Team Name</h3>
+                <h3>Base</h3>
+                <h3>Team Chief</h3>
+                <h3>Technical Chief</h3>
+                <h3>Chassis</h3>
+                <h3>Power Unit</h3>
+                <h3>First Team Entry</h3>
+                <h3>World Championships</h3>
+                <h3>Highest Race Finish</h3>
+                <h3>Pole Positions</h3>
+                <h3>Fastest Laps</h3>
+              </div>
+              <div id="text">
+                <p>Aston Martin Aramco Cognizant F1 Team</p>
+                <p>Silverstone, United Kingdom</p>
+                <p>Mike Krack</p>
+                <p>Dan Fallows</p>
+                <p>AMR23</p>
+                <p>Mercedes</p>
+                <p>2018</p>
+                <p>N/A</p>
+                <p>1 (x1)</p>
+                <p>1</p>
+                <p>N/A</p>
+              </div>
+            </div>
+            <div class="picture">
+              <div id="pic1">
+                <img src="./../Fotos/Teams/5.AstonMartin/29253272-mike-krack-Yec.jpg" alt="Teamchef" width="320vw"
+                  height="380vh">
+                <p>Mike Krack</p>
+              </div>
+              <div id="pic2">
+                <img src="./../Fotos/Teams/5.AstonMartin/1677069453013.avif" alt="Driver 1" width="320vw"
+                  height="380vh">
+                <p>Lance Stroll</p>
+              </div>
+              <div id="pic3">
+                <img src="./../Fotos/Teams/5.AstonMartin/1677244577162.avif" alt="Driver 2" width="320vw"
+                  height="380vh">
+                <p>Fernando Alonso</p>
+              </div>
+            </div>
+            <br>
+          </div>
+          <div class="car">
+            <h4>Car:</h4>
+            <div id="photocar">
+              <img src="./../Fotos/Teams/5.AstonMartin/aston-martin-23-1.jpg" alt="car" width="700vw" height="300vh">
+            </div>
+            <div>
+            <div id="textcar">
+              <p>Das Formel 1 Auto von Aston Martin ist ein Meisterwerk der Ingenieurskunst und Aerodynamik. Mit seinem
+                leistungsstarken V6-Turbomotor und optimierter Aerodynamik bietet es herausragende Geschwindigkeit und
+                Haftung auf der Rennstrecke. Das ikonische Design und die engagierten Fahrer machen es zu einem
+                faszinierenden Auto, das den Geist von Aston Martin verkörpert.</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Änderungen für das Team 6 (Alpine) -->
+    <div id="box">
+      <div id="ALPINE">
+        <div class="team">
+          <div class="logo">
+            <img src="./../Fotos/Teams/6.Alpine/alpine.avif" alt="Alpine" width="170vw" height="80vh">
+            <h2 id="Alpine">6. Alpine</h2>
+          </div>
+          <div class="team-box">
+            <div class="infos">
+              <div id="headlines">
+                <h3>Full Team Name</h3>
+                <h3>Base</h3>
+                <h3>Team Chief</h3>
+                <h3>Technical Chief</h3>
+                <h3>Chassis</h3>
+                <h3>Power Unit</h3>
+                <h3>First Team Entry</h3>
+                <h3>World Championships</h3>
+                <h3>Highest Race Finish</h3>
+                <h3>Pole Positions</h3>
+                <h3>Fastest Laps</h3>
+              </div>
+              <div id="text">
+                <p>BWT Alpine F1 Team</p>
+                <p>Enstone, United Kingdom</p>
+                <p>Otmar Szafnauer</p>
+                <p>Pat Fry</p>
+                <p>A523</p>
+                <p>Renault</p>
+                <p>1986</p>
+                <p>2</p>
+                <p>1 (x21)</p>
+                <p>20</p>
+                <p>15</p>
+              </div>
+            </div>
+            <div class="picture">
+              <div id="pic1">
+                <img src="./../Fotos/Teams/6.Alpine/Otmar_Szafnauer_Portrait.jpg" alt="Teamchef" width="320vw"
+                  height="380vh">
+                <p>Otmar Szafnauer</p>
+              </div>
+              <div id="pic2">
+                <img src="./../Fotos/Teams/6.Alpine/1676983081984.avif" alt="Driver 1" width="320vw" height="380vh">
+                <p>Pierre Gasly</p>
+              </div>
+              <div id="pic3">
+                <img src="./../Fotos/Teams/6.Alpine/1677069269007.avif" alt="Driver 2" width="320vw" height="380vh">
+                <p>Esteban Ocon</p>
+              </div>
+            </div>
+            <br>
+          </div>
+          <div class="car">
+            <h4>Car:</h4>
+            <div id="photocar">
+              <img src="./../Fotos/Teams/6.Alpine/1676580807_mst.jpg" alt="car" width="700vw" height="300vh">
+            </div>
+            <div>
+            <div id="textcar">
+              <p>Das Formel 1 Team Alpine ist für seine Leidenschaft und Streben nach Spitzenleistungen bekannt. Mit
+                innovativer Technologie und einem effizienten Fahrzeug streben sie nach Erfolg. Ihr charakteristisches
+                blaues Design spiegelt ihre französischen Wurzeln wider. Das Alpine-Team ist entschlossen, auf den
+                Siegertreppchen zu stehen und die Spannung des Formel 1 Sports zu teilen.</p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Änderungen für das Team 7 (AlphaTauri) -->
+    <div id="box">
+      <div id="ALPHATAURI">
+        <div class="team">
+          <div class="logo">
+            <img src="./../Fotos/Teams/7.Alphatauri/alphatauri.avif" alt="AlphaTauri" width="170vw" height="80vh">
+            <h2 id="Alpha-Tauri">7. AlphaTauri</h2>
+          </div>
+          <div class="team-box">
+            <div class="infos">
+              <div id="headlines">
+                <h3>Full Team Name</h3>
+                <h3>Base</h3>
+                <h3>Team Chief</h3>
+                <h3>Technical Chief</h3>
+                <h3>Chassis</h3>
+                <h3>Power Unit</h3>
+                <h3>First Team Entry</h3>
+                <h3>World Championships</h3>
+                <h3>Highest Race Finish</h3>
+                <h3>Pole Positions</h3>
+                <h3>Fastest Laps</h3>
+              </div>
+              <div id="text">
+                <p>Scuderia AlphaTauri</p>
+                <p>Faenza, Italy</p>
+                <p>Franz Tost</p>
+                <p>Jody Egginton</p>
+                <p>AT04</p>
+                <p>Honda RBPT</p>
+                <p>1985</p>
+                <p>N/A</p>
+                <p>1 (x2)</p>
+                <p>1</p>
+                <p>2</p>
+              </div>
+            </div>
+            <div class="picture">
+              <div id="pic1">
+                <img
+                  src="./../Fotos/Teams/7.Alphatauri/fd1aa025b8da538398a0126aa6afd441Y29udGVudHNlYXJjaGFwaSwxNjgyNjEyOTc5-2.67669847.jpg"
+                  alt="Teamchef" width="320vw" height="380vh">
+                <p>Franz Tost</p>
+              </div>
+              <div id="pic2">
+                <img src="./../Fotos/Teams/7.Alphatauri/1676983081637.avif" alt="Driver 1" width="320vw" height="380vh">
+                <p>Nyck De Vries</p>
+              </div>
+              <div id="pic3">
+                <img src="./../Fotos/Teams/7.Alphatauri/1677069846213.avif" alt="Driver 2" width="320vw" height="380vh">
+                <p>Yuki Tsunoda</p>
+              </div>
+            </div>
+            <br>
+          </div>
+          <div class="car">
+            <h4>Car:</h4>
+            <div id="photocar">
+              <img src="./../Fotos/Teams/7.Alphatauri/Formel-1-AlphaTauri-AT03-01.jpg" alt="car" width="700vw"
+                height="300vh">
+            </div>
+            <div>
+            <div id="textcar">
+              <p>Das Formel 1 Team AlphaTauri verkörpert Leidenschaft und Spitzenleistungen. Mit innovativer Technologie
+                und einem markanten Design streben sie nach Erfolg auf der Rennstrecke. AlphaTauri ist stolz darauf,
+                Teil der Red Bull-Familie zu sein und teilt ihre Leidenschaft für den Motorsport weltweit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Änderungen für das Team 8 (Alfa Romeo) -->
+    <div id="box">
+      <div id="ALFAROMEO">
+        <div class="team">
+          <div class="logo">
+            <img src="./../Fotos/Teams/8.Alfaromeo/alfa romeo.avif" alt="Alfa Romeo" width="170vw" height="80vh">
+            <h2 id="Alfa-Romeo">8. Alfa Romeo</h2>
+          </div>
+          <div class="team-box">
+            <div class="infos">
+              <div id="headlines">
+                <h3>Full Team Name</h3>
+                <h3>Base</h3>
+                <h3>Team Chief</h3>
+                <h3>Technical Chief</h3>
+                <h3>Chassis</h3>
+                <h3>Power Unit</h3>
+                <h3>First Team Entry</h3>
+                <h3>World Championships</h3>
+                <h3>Highest Race Finish</h3>
+                <h3>Pole Positions</h3>
+                <h3>Fastest Laps</h3>
+              </div>
+              <div id="text">
+                <p>Alfa Romeo F1 Team Stake</p>
+                <p>Hinwil, Switzerland</p>
+                <p>Alessandro Alunni Bravi</p>
+                <p>Jan Monchaux</p>
+                <p>C43</p>
+                <p>Ferrari</p>
+                <p>1993</p>
+                <p>N/A</p>
+                <p>1 (x1)</p>
+                <p>1</p>
+                <p>7</p>
+              </div>
+            </div>
+            <div class="picture">
+              <div id="pic1">
+                <img src="./../Fotos/Teams/8.Alfaromeo/alessandro-alunni-bravi-sauber-oct-2022.jpg" alt="Teamchef"
+                  width="320vw" height="380vh">
+                <p>Alessandro Alunni Bravi</p>
+              </div>
+              <div id="pic2">
+                <img src="./../Fotos/Teams/8.Alfaromeo/1677069810695.avif" alt="Driver 1" width="320vw" height="380vh">
+                <p>Valtteri Bottas</p>
+              </div>
+              <div id="pic3">
+                <img src="./../Fotos/Teams/8.Alfaromeo/1677069909295.avif" alt="Driver 2" width="320vw" height="380vh">
+                <p>Zhou Guanyu</p>
+              </div>
+            </div>
+            <br>
+          </div>
+          <div class="car">
+            <h4>Car:</h4>
+            <div id="photocar">
+              <img
+                src="./../Fotos/Teams/8.Alfaromeo/der-neue-alfa-romeo-formel-1-bolide-das-team-kommt-dieses-jahr-deutlich-dunkler-daher.webp"
+                alt="car" width="700vw" height="300vh">
+            </div>
+            <div>
+            <div id="textcar">
+              <p>Das Formel 1 Team Alfa Romeo verkörpert Tradition und Leidenschaft. Mit fortschrittlicher Technologie
+                und einem charakteristischen Design streben sie nach Höchstleistungen. Alfa Romeo ist stolz auf seine
+                Motorsportgeschichte und teilt die Begeisterung der Fans weltweit.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Änderungen für das Team 9 (Haas) -->
+    <div id="box">
+      <div id="HAAS">
+        <div class="team">
+          <div class="logo">
+            <img src="./../Fotos/Teams/9.Haas/haas.avif" alt="Haas" width="170vw" height="80vh">
+            <h2 id="Haas">9. Haas</h2>
+          </div>
+          <div class="team-box">
+            <div class="infos">
+              <div id="headlines">
+                <h3>Full Team Name</h3>
+                <h3>Base</h3>
+                <h3>Team Chief</h3>
+                <h3>Technical Chief</h3>
+                <h3>Chassis</h3>
+                <h3>Power Unit</h3>
+                <h3>First Team Entry</h3>
+                <h3>World Championships</h3>
+                <h3>Highest Race Finish</h3>
+                <h3>Pole Positions</h3>
+                <h3>Fastest Laps</h3>
+              </div>
+              <div id="text">
+                <p>MoneyGram Haas F1 Team</p>
+                <p>Kannapolis, United States</p>
+                <p>Guenther Steiner</p>
+                <p>Simone Resta</p>
+                <p>VF-23</p>
+                <p>Ferrari</p>
+                <p>2016</p>
+                <p>N/A</p>
+                <p>4 (x1)</p>
+                <p>1</p>
+                <p>2</p>
+              </div>
+            </div>
+            <div class="picture">
+              <div id="pic1">
+                <img src="./../Fotos/Teams/9.Haas/Günther_Steiner_at_the_2022_Austrian_Grand_Prix.jpg" alt="Teamchef"
+                  width="320vw" height="380vh">
+                <p>Guenther Steiner</p>
+              </div>
+              <div id="pic2">
+                <img src="./../Fotos/Teams/9.Haas/1676983071882.avif" alt="Driver 1" width="320vw" height="380vh">
+                <p>Nico Hulkenberg</p>
+              </div>
+              <div id="pic3">
+                <img src="./../Fotos/Teams/9.Haas/1677069387823.avif" alt="Driver 2" width="320vw" height="380vh">
+                <p>Kevin Magnussen</p>
+              </div>
+            </div>
+            <br>
+          </div>
+          <div class="car">
+            <h4>Car:</h4>
+            <div id="photocar">
+              <img src="./../Fotos/Teams/9.Haas/haas-vf-23-1.jpg" alt="car" width="700vw" height="300vh">
+            </div>
+            <div>
+            <div id="textcar">
+              <p>Das Formel 1 Team Alfa Romeo verkörpert Tradition und Leidenschaft. Mit fortschrittlicher Technologie
+                und einem charakteristischen Design streben sie nach Höchstleistungen. Alfa Romeo ist stolz auf seine
+                Motorsportgeschichte und teilt die Begeisterung der Fans weltweit.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Änderungen für das Team 10 (Williams) -->
+    <div id="box">
+      <div id="WILLIAMS">
+        <div class="team">
+          <div class="logo">
+            <img src="./../Fotos/Teams/10.Williams/williams.avif" alt="Williams" width="170vw" height="80vh">
+            <h2 id="Williams">10. Williams</h2>
+          </div>
+          <div class="team-box">
+            <div class="infos">
+              <div id="headlines">
+                <h3>Full Team Name</h3>
+                <h3>Base</h3>
+                <h3>Team Chief</h3>
+                <h3>Technical Chief</h3>
+                <h3>Chassis</h3>
+                <h3>Power Unit</h3>
+                <h3>First Team Entry</h3>
+                <h3>World Championships</h3>
+                <h3>Highest Race Finish</h3>
+                <h3>Pole Positions</h3>
+                <h3>Fastest Laps</h3>
+              </div>
+              <div id="text">
+                <p>Williams Racing</p>
+                <p>Grove, United Kingdom</p>
+                <p>James Vowles</p>
+                <p>TBC</p>
+                <p>FW45</p>
+                <p>Mercedes</p>
+                <p>1978</p>
+                <p>9</p>
+                <p>1 (x114)</p>
+                <p>128</p>
+                <p>133</p>
+              </div>
+            </div>
+            <div class="picture">
+              <div id="pic1">
+                <img src="./../Fotos/Teams/10.Williams/Vowles1.avif" alt="Teamchef" width="320vw" height="380vh">
+                <p>James Vowles</p>
+              </div>
+              <div id="pic2">
+                <img src="./../Fotos/Teams/10.Williams/1676983079144.avif" alt="Driver 1" width="320vw" height="380vh">
+                <p>Logan Sargeant</p>
+              </div>
+              <div id="pic3">
+                <img src="./../Fotos/Teams/10.Williams/1677068770293.avif" alt="Driver 2" width="320vw" height="380vh">
+                <p>Alexander Albon</p>
+              </div>
+            </div>
+            <br>
+          </div>
+          <div class="car">
+            <h4>Car:</h4>
+            <div id="photocar">
+              <img src="./../Fotos/Teams/10.Williams/2023-06-01 20_00_52-williams-fw45-1.jpg.png" alt="car"
+                width="700vw" height="300vh">
+            </div>
+            <div>
+            <div id="textcar">
+              <p>Das Formel 1 Team Williams verkörpert Tradition und Leidenschaft. Mit innovativer Technologie und einem
+                charakteristischen Design streben sie nach Spitzenleistungen. Williams ist stolz auf seine erfolgreiche
+                Motorsportgeschichte und teilt die Begeisterung der Fans weltweit.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<footer>
+  <div class="grid">
+    <div id="row1">
+      <p>Erik Bergmair</p>
+      <p>Sommerprojekt</p>
+      <p>2023</p>
+    </div>
+    <div id="row2">
+      <p>e.bergmair@students.htl-leonding.ac.at</p>
+      <p>HTL Leonding - 1BHITM</p>
+      <p>Limesstraße 12/14, 4060 Leonding</p>
+    </div>
+    <div id="row3">
+      <a href="https://www.formula1.com/" class="icon-link">
+        <div class="icon">
+          <img src="./../Fotos/Icons/Footer/5a3550e2b3f3d3.7086462115134435547371.png" alt="icon">
+          <span id="text">Webseite</span>
+        </div>
+      </a>
+      <a href="https://www.instagram.com/f1/" class="icon-link">
+        <div class="icon">
+          <img src="./../Fotos/Icons/Footer/vecteezy_instagram-logo-png-instagram-icon-transparent_18930413_874.png"
+            alt="Icon">
+          <span id="text">Instagram</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</footer>
+
+
+</html>

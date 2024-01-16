@@ -1,0 +1,129 @@
+/* Stil für die Navigation */
+
+@font-face {
+  font-family: Raleway;
+  src: url(./../font/Raleway.woff);
+}
+*{
+  font-family: Raleway;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff; /* Hintergrundfarbe der Navigation */
+    padding: 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Schatten um die Navigation */
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; /* optional, falls die Navigation über anderen Inhalten liegen soll */
+    
+  }
+  
+  /* Stil für den linken Teil der Navigation */
+  .nav-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Stil für den Namen in der Navigation */
+  .nav-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333; /* Farbe des Namens */
+    margin-left: 10px;
+  }
+  
+  /* Stil für das Menü in der Navigation */
+  .nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Stil für die einzelnen Menüpunkte */
+  .nav-menu li {
+    position: relative;
+  }
+  
+  /* Stil für die Links in den Menüpunkten */
+  .nav-menu li a {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  /* Stil für den Hover-Effekt */
+  .nav-menu li:hover > .sub-menu {
+    display: block;
+  }
+  
+  /* Stil für das Dropdown-Menü */
+  .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1; /* Stellt sicher, dass das Dropdown-Menü vor anderen Elementen angezeigt wird */
+  }
+  
+  /* Stil für die einzelnen Menüpunkte im Dropdown-Menü */
+  .sub-menu li {
+    width: 200px;
+  }
+  
+  /* Stil für die Links in den Menüpunkten im Dropdown-Menü */
+  .sub-menu li a {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  /* Stil für den Hover-Effekt in den Menüpunkten im Dropdown-Menü */
+  .sub-menu li:hover a {
+    color: #fff; /* Textfarbe ändert sich auf Weiß */
+    background-color: #e30613; /* Hintergrundfarbe ändert sich auf Rot */
+  }
+  
+  .Saison-Drop-Down{
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    padding: 10px 20px;
+    margin-left: 5px;
+    text-decoration: none;
+  }
+  
+  
+  .sub-menu > li {
+  position: relative;
+  }
+  .sub-menu > li > ul {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  display: none;
+  }
+  .sub-menu > li:hover > ul {
+  display: block;
+  }
+
+
+#platzhalter{
+  margin-right: 5vw;
+}
+
+

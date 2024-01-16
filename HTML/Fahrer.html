@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fahrer</title>
+    <link rel="stylesheet" href="./../CSS/Allgemein.css">
+    <link rel="stylesheet" href="./../CSS/Nav.css">
+    <link rel="stylesheet" href="./../CSS/Fahrer.css">
+    <link rel="stylesheet" href="./../CSS/footer.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-left">
+      <a href="https://www.formula1.com"><img src="./../Fotos/Icons/NAV/Formular1_Logo_navi.png" alt="Logo" width="100px" height="90px"></a>
+      <a href="https://www.formula1.com" class="nav-name">Formel 1</a>
+    </div>
+    <ul class="nav-menu">
+      <li><a href="./HTML.html">Home</a></li>
+      <li><a href="./Saison.html">Saison</a>
+      <ul class="sub-menu">
+        <li>
+          <a href="./Saison.html">Saison</a>
+        </li>
+        <ul class="Saison-Drop-Down">
+          <li><a href="./Saison.html#Bahrain">1. Bahrain</a></li>
+          <li><a href="./Saison.html#Saudi-Arabien">2. Saudi-Arabien</a></li>
+          <li><a href="./Saison.html#Australien">3. Australien</a></li>
+          <li><a href="./Saison.html#Aserbaidschan">4. Aserbaidschan</a></li>
+          <li><a href="./Saison.html#Miami">5. Miami</a></li>
+          <li><a href="./Saison.html#Emilia-Romagna">6. Emilia-Romagna</a></li>
+          <li><a href="./Saison.html#Monaco">7. Monaco</a></li>
+          <li><a href="./Saison.html#Spanien">8. Spanien</a></li>
+          <li><a href="./Saison.html#Kanada">9. Kanada</a></li>
+          <li><a href="./Saison.html#Österreich">10. Österreich</a></li>
+          <li><a href="./Saison.html#Großbritannien">11. Großbritannien</a></li>
+          <li><a href="./Saison.html#Ungarn">12. Ungarn</a></li>
+          <li><a href="./Saison.html#Belgien">13. Belgien</a></li>
+          <li><a href="./Saison.html#Niederlande">14. Niederlande</a></li>
+          <li><a href="./Saison.html#Italien">15. Italien</a></li>
+          <li><a href="./Saison.html#Singapur">16. Singapur</a></li>
+          <li><a href="./Saison.html#Japan">17. Japan</a></li>
+          <li><a href="./Saison.html#Katar">18. Katar</a></li>
+          <li><a href="./Saison.html#USA">19. USA</a></li>
+          <li><a href="./Saison.html#Mexiko">20. Mexiko</a></li>
+          <li><a href="./Saison.html#São-Paulo">21. São Paulo</a></li>
+          <li><a href="./Saison.html#Las-Vegas">22. Las Vegas</a></li>
+          <li><a href="./Saison.html#Abu-Dhabi">23. Abu Dhabi</a></li>
+      </ul>
+
+      </ul>
+      <li>
+        <a href="./Teams.html">Teams</a>
+        <ul class="sub-menu">
+          <li><a href="./Teams.html#Mercedes">1. Mercedes</a></li>
+          <li><a href="./Teams.html#Red-Bull">2. Red Bull</a></li>
+          <li><a href="./Teams.html#Ferrari">3. Ferrari</a></li>
+          <li><a href="./Teams.html#McLaren">4. McLaren</a></li>
+          <li><a href="./Teams.html#Aston-Martin">5. Aston Martin</a></li>
+          <li><a href="./Teams.html#Alpine">6. Alpine</a></li>
+          <li><a href="./Teams.html#Alpha-Tauri">7. AlphaTauri</a></li>
+          <li><a href="./Teams.html#Alfa-Romeo">8. Alfa Romeo</a></li>
+          <li><a href="./Teams.html#Haas">9. Haas</a></li>
+          <li><a href="./Teams.html#Williams">10. Williams</a></li>
+        </ul>
+      </li>
+      
+      <li><a href="./Fahrer.html">Fahrer</a>
+          <ul class="sub-menu">
+            <li><a href="./Fahrer.html#Mercedes">1. Mercedes</a></li>
+            <li><a href="./Fahrer.html#Red-Bull">2. Red Bull</a></li>
+            <li><a href="./Fahrer.html#Ferrari">3. Ferrari</a></li>
+            <li><a href="./Fahrer.html#McLaren">4. McLaren</a></li>
+            <li><a href="./Fahrer.html#Aston-Martin">5. Aston Martin</a></li>
+            <li><a href="./Fahrer.html#Alpine">6. Alpine</a></li>
+            <li><a href="./Fahrer.html#Alpha-Tauri">7. AlphaTauri</a></li>
+            <li><a href="./Fahrer.html#Alfa-Romeo">8. Alfa Romeo</a></li>
+            <li><a href="./Fahrer.html#Haas">9. Haas</a></li>
+            <li><a href="./Fahrer.html#Williams">10. Williams</a></li>
+          </ul>
+      </li>
+      <div id="platzhalter"></div>
+    </ul>
+  </nav>
+
+  <div class="content">
+
+    <div class="gewinnspiel">
+        <a href="./Gewinnspiel.html">Gewinnspiel</a>
+    </div>
+
+    <div id="MERCEDES">
+        <h2 id="Mercedes">Mercedes AMG F1 Team</h2>
+        <div class="team-box">
+          <div id="text1">
+            <div class="h4">
+                <h4>Team</h4>
+                <h4>Country</h4>
+                <h4>Podiums</h4>
+                <h4>Points</h4>
+                <h4>Grand Prix entered</h4>
+                <h4>World Championships</h4>
+                <h4>Highest race finish</h4>
+                <h4>Highest grid position</h4>
+                <h4>Date of birth</h4>
+                <h4>Place of birth</h4>
+            </div>
+            <div class="p">
+                <p>Mercedes</p>
+                <p>United Kingdom</p>
+                <p>192</p>
+                <p>4461.5</p>
+                <p>315</p>
+                <p>7</p>
+                <p>1 (x103)</p>
+                <p>1</p>
+                <p>07/01/1985</p>
+                <p>Stevenage, England</p>                
+            </div>
+            
+          </div>
+          <div id="bild1">
+            <h3>Lewis Hamilton, 44, Great Britain</h3>
+            <img src="./../Fotos/Fahrer/1677069594164.avif" alt="Hamilton">
+          </div>
+          <div id="bild2">
+            <h3>George Russell, 63, Great Britain</h3>
+            <img src="./../Fotos/Fahrer/1677069334466.avif" alt="Russell">
+          </div>
+          <div id="text2">
+            <div class="h4">
+                <h4>Team</h4>
+                <h4>Country</h4>
+                <h4>Podiums</h4>
+                <h4>Points</h4>
+                <h4>Grand Prix entered</h4>
+                <h4>World Championships</h4>
+                <h4>Highest race finish</h4>
+                <h4>Highest grid position</h4>
+                <h4>Date of birth</h4>
+                <h4>Place of birth</h4>
+            </div>
+            <div class="p">
+                <p>Mercedes</p>
+                <p>United Kingdom</p>
+                <p>9</p>
+                <p>334</p>
+                <p>87</p>
+                <p>N/A</p>
+                <p>1 (x1)</p>
+                <p>1</p>
+                <p>15/02/1998</p>
+                <p>King's Lynn, England</p>                
+            </div>
+        
+          </div>
+        </div>
+      </div>
+      
+      <div id="RED-BULL">
+        <h2 id="Red-Bull">Red Bull Racing</h2>
+        <div class="team-box">
+          <div id="text1">
+            <div class="h4">
+                <h4>Team</h4>
+                <h4>Country</h4>
+                <h4>Podiums</h4>
+                <h4>Points</h4>
+                <h4>Grand Prix entered</h4>
+                <h4>World Championships</h4>
+                <h4>Highest race finish</h4>
+                <h4>Highest grid position</h4>
+                <h4>Date of birth</h4>
+                <h4>Place of birth</h4>
+            </div>
+            <div class="p">
+                <p>Red Bull Racing</p>
+                <p>Netherlands</p>
+                <p>82</p>
+                <p>2130.5</p>
+                <p>168</p>
+                <p>2</p>
+                <p>1 (x38)</p>
+                <p>1</p>
+                <p>30/09/1997</p>
+                <p>Hasselt, Belgium</p>                
+            </div>
+          </div>
+          <div id="bild1">
+            <h3>Max Verstappen, 1, Netherlands</h3>
+            <img src="./../Fotos/Fahrer/1677069646195.avif" alt="Max Verstappen">
+          </div>
+          <div id="bild2">
+            <h3>Sergio Pérez, 11, Mexico</h3>
+            <img src="./../Fotos/Fahrer/1677069773437.avif" alt="Sergio Pérez">
+          </div>
+          <div id="text2">
+            <div class="h4">
+                <h4>Team</h4>
+                <h4>Country</h4>
+                <h4>Podiums</h4>
+                <h4>Points</h4>
+                <h4>Grand Prix entered</h4>
+                <h4>World Championships</h4>
+                <h4>Highest race finish</h4>
+                <h4>Highest grid position</h4>
+                <h4>Date of birth</h4>
+                <h4>Place of birth</h4>
+            </div>
+            <div class="p">
+                <p>Red Bull Racing</p>
+                <p>Mexico</p>
+                <p>30</p>
+                <p>1306</p>
+                <p>241</p>
+                <p>N/A</p>
+                <p>1 (x6)</p>
+                <p>1</p>
+                <p>26/01/1990</p>
+                <p>Guadalajara, Mexico</p>                
+            </div>
+          </div>
+        </div>
+    </div>
+      
+    
+    <div id="FERRARI">
+        <h2 id="Ferrari">Ferrari</h2>
+        <div class="team-box">
+            <div id="text1">
+                <div class="h4">
+                    <h4>Team</h4>
+                    <h4>Country</h4>
+                    <h4>Podiums</h4>
+                    <h4>Points</h4>
+                    <h4>Grand Prix entered</h4>
+                    <h4>World Championships</h4>
+                    <h4>Highest race finish</h4>
+                    <h4>Highest grid position</h4>
+                    <h4>Date of birth</h4>
+                    <h4>Place of birth</h4>
+                </div>
+                <div class="p">
+                    <p>Ferrari</p>
+                    <p>Monaco</p>
+                    <p>25</p>
+                    <p>902</p>
+                    <p>108</p>
+                    <p>N/A</p>
+                    <p>1 (x5)</p>
+                    <p>1</p>
+                    <p>16/10/1997</p>
+                    <p>Monte Carlo, Monaco</p>                    
+                </div>
+            </div>
+            <div id="bild1">
+                <h3>Charles Leclerc, 16, Monaco</h3>
+                <img src="./../Fotos/Fahrer/1677069223130.avif" alt="Charles Leclerc">
+            </div>
+            <div id="bild2">
+                <h3>Carlos Sainz, 55, Spain</h3>
+                <img src="./../Fotos/Fahrer/1677069189406.avif" alt="Carlos Sainz">
+            </div>
+            <div id="text2">
+                <div class="h4">
+                    <h4>Team</h4>
+                    <h4>Country</h4>
+                    <h4>Podiums</h4>
+                    <h4>Points</h4>
+                    <h4>Grand Prix entered</h4>
+                    <h4>World Championships</h4>
+                    <h4>Highest race finish</h4>
+                    <h4>Highest grid position</h4>
+                    <h4>Date of birth</h4>
+                    <h4>Place of birth</h4>
+                </div>
+                <div class="p">
+                    <p>Ferrari</p>
+                    <p>Spain</p>
+                    <p>15</p>
+                    <p>826.5</p>
+                    <p>168</p>
+                    <p>N/A</p>
+                    <p>1 (x1)</p>
+                    <p>1</p>
+                    <p>01/09/1994</p>
+                    <p>Madrid, Spain</p>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="MCLAREN">
+        <h2 id="McLaren">McLaren F1 Team</h2>
+        <div class="team-box">
+            <div id="text1">
+                <div class="h4">
+                    <h4>Team</h4>
+                    <h4>Country</h4>
+                    <h4>Podiums</h4>
+                    <h4>Points</h4>
+                    <h4>Grand Prix entered</h4>
+                    <h4>World Championships</h4>
+                    <h4>Highest race finish</h4>
+                    <h4>Highest grid position</h4>
+                    <h4>Date of birth</h4>
+                    <h4>Place of birth</h4>
+                </div>
+                <div class="p">
+                    <p>McLaren</p>
+                    <p>United Kingdom</p>
+                    <p>6</p>
+                    <p>438</p>
+                    <p>87</p>
+                    <p>N/A</p>
+                    <p>2 (x1)</p>
+                    <p>1</p>
+                    <p>13/11/1999</p>
+                    <p>Bristol, England</p>                    
+                </div>
+            </div>
+            <div id="bild1">
+                <h3>Lando Norris, 4, Great Britain</h3>
+                <img src="./../Fotos/Fahrer/1677069505471.avif" alt="Lando Norris">
+            </div>
+            <div id="bild2">
+                <h3>Oscar Piastri, 81, Australia</h3>
+                <img src="./../Fotos/Fahrer/1676983075734.avif" alt="Oscar Piastri">
+            </div>
+            <div id="text2">
+                <div class="h4">
+                    <h4>Team</h4>
+                    <h4>Country</h4>
+                    <h4>Podiums</h4>
+                    <h4>Points</h4>
+                    <h4>Grand Prix entered</h4>
+                    <h4>World Championships</h4>
+                    <h4>Highest race finish</h4>
+                    <h4>Highest grid position</h4>
+                    <h4>Date of birth</h4>
+                    <h4>Place of birth</h4>
+                </div>
+                <div class="p">
+                    <p>McLaren</p>
+                    <p>United Kingdom</p>
+                    <p>6</p>
+                    <p>438</p>
+                    <p>87</p>
+                    <p>N/A</p>
+                    <p>2 (x1)</p>
+                    <p>1</p>
+                    <p>13/11/1999</p>
+                    <p>Bristol, England</p>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="ASTON-MARTIN">
+        <h2 id="Aston-Martin">Aston Martin F1 Team</h2>
+        <div class="team-box">
+            <div id="text1">
+                <div class="h4">
+                    <h4>Team</h4>
+                    <h4>Country</h4>
+                    <h4>Podiums</h4>
+                    <h4>Points</h4>
+                    <h4>Grand Prix entered</h4>
+                    <h4>World Championships</h4>
+                    <h4>Highest race finish</h4>
+                    <h4>Highest grid position</h4>
+                    <h4>Date of birth</h4>
+                    <h4>Place of birth</h4>
+                </div>
+                <div class="p">
+                    <p>Aston Martin</p>
+                    <p>Spain</p>
+                    <p>102</p>
+                    <p>2136</p>
+                    <p>363</p>
+                    <p>2</p>
+                    <p>1 (x32)</p>
+                    <p>1</p>
+                    <p>29/07/1981</p>
+                    <p>Oviedo, Spain</p>                    
+                </div>
+            </div>
+            <div id="bild1">
+                <h3>Fernando Alonso, 14, Spain</h3>
+                <img src="./../Fotos/Fahrer/1677244577162.avif" alt="Fernando Alonso">
+            </div>
+            <div id="bild2">
+                <h3>Lance Stroll, 18, Canada</h3>
+                <img src="./../Fotos/Fahrer/1677069453013.avif" alt="Lance Stroll">
+            </div>
+            <div id="text2">
+                <div class="h4">
+                    <h4>Team</h4>
+                    <h4>Country</h4>
+                    <h4>Podiums</h4>
+                    <h4>Points</h4>
+                    <h4>Grand Prix entered</h4>
+                    <h4>World Championships</h4>
+                    <h4>Highest race finish</h4>
+                    <h4>Highest grid position</h4>
+                    <h4>Date of birth</h4>
+                    <h4>Place of birth</h4>
+                </div>
+                <div class="p">
+                    <p>Aston Martin</p>
+                    <p>Canada</p>
+                    <p>3</p>
+                    <p>221</p>
+                    <p>127</p>
+                    <p>N/A</p>
+                    <p>3 (x3)</p>
+                    <p>1</p>
+                    <p>29/10/1998</p>
+                    <p>Montreal, Canada</p>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="ALPINE">
+        <h2 id="Alpine">Alpine F1 Team</h2>
+        <div class="team-box">
+            <div id="text1">
+                <div class="h4">
+                    <h4>Team</h4>
+                    <h4>Country</h4>
+                    <h4>Podiums</h4>
+                    <h4>Points</h4>
+                    <h4>Grand Prix entered</h4>
+                    <h4>World Championships</h4>
+                    <h4>Highest race finish</h4>
+                    <h4>Highest grid position</h4>
+                    <h4>Date of birth</h4>
+                    <h4>Place of birth</h4>
+                </div>
+                <div class="p">
+                    <p>Alpine</p>
+                    <p>France</p>
+                    <p>3</p>
+                    <p>340</p>
+                    <p>113</p>
+                    <p>N/A</p>
+                    <p>1 (x1)</p>
+                    <p>2</p>
+                    <p>07/02/1996</p>
+                    <p>Rouen, France</p>                    
+                </div>
+            </div>
+            <div id="bild1">
+                <h3>Pierre Gasly, 10, France</h3>
+                <img src="./../Fotos/Fahrer/1676983081984.avif" alt="Pierre Gasly">
+            </div>
+            <div id="bild2">
+                <h3>Esteban Ocon, 31, France</h3>
+                <img src="./../Fotos/Fahrer/1677069269007.avif" alt="Esteban Ocon">
+            </div>
+            <div id="text2">
+                <div class="h4">
+                    <h4>Team</h4>
+                    <h4>Country</h4>
+                    <h4>Podiums</h4>
+                    <h4>Points</h4>
+                    <h4>Grand Prix entered</h4>
+                    <h4>World Championships</h4>
+                    <h4>Highest race finish</h4>
+                    <h4>Highest grid position</h4>
+                    <h4>Date of birth</h4>
+                    <h4>Place of birth</h4>
+                </div>
+                <div class="p">
+                    <p>Alpine</p>
+                    <p>France</p>
+                    <p>2</p>
+                    <p>370</p>
+                    <p>116</p>
+                    <p>N/A</p>
+                    <p>1 (x1)</p>
+                    <p>3</p>
+                    <p>17/09/1996</p>
+                    <p>Évreux, Normandy</p>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="ALPHA-TAURI">
+        <h2 id="Alpha-Tauri">AlphaTauri</h2>
+        <div class="team-box">
+            <div id="text1">
+                <div class="h4">
+                    <h4>Team</h4>
+                    <h4>Country</h4>
+                    <h4>Podiums</h4>
+                    <h4>Points</h4>
+                    <h4>Grand Prix entered</h4>
+                    <h4>World Championships</h4>
+                    <h4>Highest race finish</h4>
+                    <h4>Highest grid position</h4>
+                    <h4>Date of birth</h4>
+                    <h4>Place of birth</h4>
+                </div>
+                <div class="p">
+                    <p>AlphaTauri</p>
+                    <p>Japan</p>
+                    <p>N/A</p>
+                    <p>46</p>
+                    <p>49</p>
+                    <p>N/A</p>
+                    <p>4 (x1)</p>
+                    <p>7</p>
+                    <p>11/05/2000</p>
+                    <p>Sagamihara, Japan</p>                    
+                </div>
+            </div>
+            <div id="bild1">
+                <h3>Yuki Tsunoda, 22, Japan</h3>
+                <img src="./../Fotos/Fahrer/1677069846213.avif" alt="Yuki Tsunoda">
+            </div>
+            <div id="bild2">
+                <h3>Nyck de Vries, 45, Netherlands</h3>
+                <img src="./../Fotos/Fahrer/1676983081637.avif" alt="Nyck de Vries">
+            </div>
+            <div id="text2">
+                <div class="h4">
+                    <h4>Team</h4>
+                    <h4>Country</h4>
+                    <h4>Podiums</h4>
+                    <h4>Points</h4>
+                    <h4>Grand Prix entered</h4>
+                    <h4>World Championships</h4>
+                    <h4>Highest race finish</h4>
+                    <h4>Highest grid position</h4>
+                    <h4>Date of birth</h4>
+                    <h4>Place of birth</h4>
+                </div>
+                <div class="p">
+                    <p>AlphaTauri</p>
+                    <p>Netherlands</p>
+                    <p>N/A</p>
+                    <p>2</p>
+                    <p>6</p>
+                    <p>N/A</p>
+                    <p>9 (x1)</p>
+                    <p>8</p>
+                    <p>06/02/1995</p>
+                    <p>Uitwellingerga, Netherlands</p>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="ALFA-ROMEO">
+        <h2 id="Alfa-Romeo">Alfa Romeo F1 Team</h2>
+        <div class="team-box">
+            <div id="text1">
+                <div class="h4">
+                    <h4>Team</h4>
+                    <h4>Country</h4>
+                    <h4>Podiums</h4>
+                    <h4>Points</h4>
+                    <h4>Grand Prix entered</h4>
+                    <h4>World Championships</h4>
+                    <h4>Highest race finish</h4>
+                    <h4>Highest grid position</h4>
+                    <h4>Date of birth</h4>
+                    <h4>Place of birth</h4>
+                </div>
+                <div class="p">
+                    <p>Alfa Romeo</p>
+                    <p>China</p>
+                    <p>N/A</p>
+                    <p>8</p>
+                    <p>27</p>
+                    <p>N/A</p>
+                    <p>8 (x1)</p>
+                    <p>9</p>
+                    <p>30/05/1999</p>
+                    <p>Shanghai, China</p>                    
+                </div>
+            </div>
+            <div id="bild1">
+                <h3>Guanyu Zhou, 24, China</h3>
+                <img src="./../Fotos/Fahrer/1677069909295.avif" alt="Guanyu Zhou">
+            </div>
+            <div id="bild2">
+                <h3>Valtteri Bottas, 77, Finland</h3>
+                <img src="./../Fotos/Fahrer/1677069810695.avif" alt="Valtteri Bottas">
+            </div>
+            <div id="text2">
+                <div class="h4">
+                    <h4>Team</h4>
+                    <h4>Country</h4>
+                    <h4>Podiums</h4>
+                    <h4>Points</h4>
+                    <h4>Grand Prix entered</h4>
+                    <h4>World Championships</h4>
+                    <h4>Highest race finish</h4>
+                    <h4>Highest grid position</h4>
+                    <h4>Date of birth</h4>
+                    <h4>Place of birth</h4>
+                </div>
+                <div class="p">
+                    <p>Alfa Romeo</p>
+                    <p>Finland</p>
+                    <p>67</p>
+                    <p>1791</p>
+                    <p>205</p>
+                    <p>N/A</p>
+                    <p>1 (x10)</p>
+                    <p>1</p>
+                    <p>28/08/1989</p>
+                    <p>Nastola, Finland</p>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="HAAS">
+        <h2 id="Haas">Haas F1</h2>
+        <div class="team-box">
+            <div id="text1">
+                <div class="h4">
+                    <h4>Team</h4>
+                    <h4>Country</h4>
+                    <h4>Podiums</h4>
+                    <h4>Points</h4>
+                    <h4>Grand Prix entered</h4>
+                    <h4>World Championships</h4>
+                    <h4>Highest race finish</h4>
+                    <h4>Highest grid position</h4>
+                    <h4>Date of birth</h4>
+                    <h4>Place of birth</h4>
+                </div>
+                <div class="p">
+                    <p>Haas F1 Team</p>
+                    <p>Denmark</p>
+                    <p>1</p>
+                    <p>185</p>
+                    <p>147</p>
+                    <p>N/A</p>
+                    <p>2 (x1)</p>
+                    <p>4</p>
+                    <p>05/10/1992</p>
+                    <p>Roskilde, Denmark</p>                    
+                </div>
+            </div>
+            <div id="bild1">
+                <h3>Kevin Magnussen, 20, Denmark</h3>
+                <img src="./../Fotos/Fahrer/1677069387823.avif" alt="Kevin Magnussen">
+            </div>
+            <div id="bild2">
+                <h3>Nico Hülkenberg, 27, Germany</h3>
+                <img src="./../Fotos/Fahrer/1676983071882.avif" alt="Nico Hülkenberg">
+            </div>
+            <div id="text2">
+                <div class="h4">
+                    <h4>Team</h4>
+                    <h4>Country</h4>
+                    <h4>Podiums</h4>
+                    <h4>Points</h4>
+                    <h4>Grand Prix entered</h4>
+                    <h4>World Championships</h4>
+                    <h4>Highest race finish</h4>
+                    <h4>Highest grid position</h4>
+                    <h4>Date of birth</h4>
+                    <h4>Place of birth</h4>
+                </div>
+                <div class="p">
+                    <p>Haas F1 Team</p>
+                    <p>Germany</p>
+                    <p>N/A</p>
+                    <p>527</p>
+                    <p>189</p>
+                    <p>N/A</p>
+                    <p>4 (x3)</p>
+                    <p>1</p>
+                    <p>19/08/1987</p>
+                    <p>Emmerich am Rhein, Germany</p>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="WILLIAMS">
+        <h2 id="Williams">Williams Racing</h2>
+        <div class="team-box">
+            <div id="text1">
+                <div class="h4">
+                    <h4>Team</h4>
+                    <h4>Country</h4>
+                    <h4>Podiums</h4>
+                    <h4>Points</h4>
+                    <h4>Grand Prix entered</h4>
+                    <h4>World Championships</h4>
+                    <h4>Highest race finish</h4>
+                    <h4>Highest grid position</h4>
+                    <h4>Date of birth</h4>
+                    <h4>Place of birth</h4>
+                </div>
+                <div class="p">
+                    <p>Williams</p>
+                    <p>Thailand</p>
+                    <p>2</p>
+                    <p>202</p>
+                    <p>64</p>
+                    <p>N/A</p>
+                    <p>3 (x2)</p>
+                    <p>4</p>
+                    <p>23/03/1996</p>
+                    <p>London, England</p>                    
+                </div>
+            </div>
+            <div id="bild1">
+                <h3>Alexander Albon, 23, Great Britain</h3>
+                <img src="./../Fotos/Fahrer/1677068770293.avif" alt="Alexander Albon">
+            </div>
+            <div id="bild2">
+                <h3>Logan Sargeant, 2, USA</h3>
+                <img src="./../Fotos/Fahrer/1676983079144.avif" alt="Logan Sargeant">
+            </div>
+            <div id="text2">
+                <div class="h4">
+                    <h4>Team</h4>
+                    <h4>Country</h4>
+                    <h4>Podiums</h4>
+                    <h4>Points</h4>
+                    <h4>Grand Prix entered</h4>
+                    <h4>World Championships</h4>
+                    <h4>Highest race finish</h4>
+                    <h4>Highest grid position</h4>
+                    <h4>Date of birth</h4>
+                    <h4>Place of birth</h4>
+                </div>
+                <div class="p">
+                    <p>Williams</p>
+                    <p>United States</p>
+                    <p>N/A</p>
+                    <p>0</p>
+                    <p>5</p>
+                    <p>N/A</p>
+                    <p>12 (x1)</p>
+                    <p>14</p>
+                    <p>31/12/2000</p>
+                    <p>Fort Lauderdale, Florida</p>                    
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>    
+
+</body>
+<footer>
+    <div class="grid">
+      <div id="row1">
+        <p>Erik Bergmair</p>
+        <p>Sommerprojekt</p>
+        <p>2023</p>
+      </div>
+      <div id="row2">
+        <p>e.bergmair@students.htl-leonding.ac.at</p>
+        <p>HTL Leonding - 1BHITM</p>
+        <p>Limesstraße 12/14, 4060 Leonding</p>
+      </div>
+      <div id="row3">
+        <a href="https://www.formula1.com/" class="icon-link">
+          <div class="icon">
+            <img src="./../Fotos/Icons/Footer/5a3550e2b3f3d3.7086462115134435547371.png" alt="icon">
+            <span id="text">Webseite</span>
+          </div>
+        </a>
+        <a href="https://www.instagram.com/f1/" class="icon-link">
+          <div class="icon">
+            <img src="./../Fotos/Icons/Footer/vecteezy_instagram-logo-png-instagram-icon-transparent_18930413_874.png" alt="Icon">
+            <span id="text">Instagram</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </footer>
+</html>

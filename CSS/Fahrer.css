@@ -1,0 +1,344 @@
+/*{
+outline: red dashed 1px;
+}*/
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff; /* Hintergrundfarbe der Navigation */
+    padding: 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Schatten um die Navigation */
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; /* optional, falls die Navigation über anderen Inhalten liegen soll */
+    
+  }
+  
+  /* Stil für den linken Teil der Navigation */
+  nav{
+    position: fixed;
+  }
+  .nav-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Stil für den Namen in der Navigation */
+  .nav-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333; /* Farbe des Namens */
+    margin-left: 10px;
+  }
+  
+  /* Stil für das Menü in der Navigation */
+  .nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Stil für die einzelnen Menüpunkte */
+  .nav-menu li {
+    position: relative;
+  }
+  
+  /* Stil für die Links in den Menüpunkten */
+  .nav-menu li a {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  /* Stil für den Hover-Effekt */
+  .nav-menu li:hover > .sub-menu {
+    display: block;
+  }
+  
+  /* Stil für das Dropdown-Menü */
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1; /* Stellt sicher, dass das Dropdown-Menü vor anderen Elementen angezeigt wird */
+}
+  
+  /* Stil für die einzelnen Menüpunkte im Dropdown-Menü */
+.sub-menu li {
+    width: 200px;
+}
+  
+  /* Stil für die Links in den Menüpunkten im Dropdown-Menü */
+.sub-menu li a {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+  
+  /* Stil für den Hover-Effekt in den Menüpunkten im Dropdown-Menü */
+.sub-menu li:hover a {
+    color: #fff; /* Textfarbe ändert sich auf Weiß */
+    background-color: #e30613; /* Hintergrundfarbe ändert sich auf Rot */
+}
+  
+.Saison-Drop-Down{
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    padding: 10px 20px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+  
+  
+.sub-menu > li {
+  position: relative;
+}
+
+.sub-menu > li > ul {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  display: none;
+}
+
+  .sub-menu > li:hover > ul {
+  display: block;
+}
+
+
+#platzhalter{
+  margin-right: 5vw;
+}
+
+body{
+    margin: 0;
+    
+}
+h4{
+    font-size: 1.05em;
+}
+p{
+    font-size: 1.05em
+}
+
+.content{
+    margin-top: 12vh;
+}
+
+#MERCEDES {
+    background-image: linear-gradient(to bottom, #00D2BE, #41454d);
+
+    padding: 0.4vw;
+}
+
+#RED-BULL {
+    background-image: linear-gradient(to bottom, #3730ff, #D50000);
+
+    padding: 0.4vw;
+}
+
+#FERRARI {
+    background-image: linear-gradient(to bottom, #fbff00, #DC0000);
+
+    padding: 0.4vw;
+}
+
+#MCLAREN {
+    background-image: linear-gradient(to bottom, #FF8700, #3c3c3c);
+
+    padding: 0.4vw;
+}
+
+#ASTON-MARTIN {
+    background-image: linear-gradient(to bottom, #007AFF, #00FF29);
+
+    padding: 0.4vw;
+}
+
+#ALPINE {
+    background-image: linear-gradient(to bottom, #0090FF, #FFFFFF);
+
+    padding: 0.4vw;
+}
+
+#ALPHA-TAURI {
+    background-image: linear-gradient(to bottom, #2B4562, #E0E0E0);
+
+    padding: 0.4vw;
+}
+
+#ALFA-ROMEO {
+    background-image: linear-gradient(to bottom, #a70000, #760000);
+
+    padding: 0.4vw;
+}
+
+#HAAS {
+    background-image: linear-gradient(to bottom, #FFFFFF, #E10600);
+
+    padding: 0.4vw;
+}
+
+
+#WILLIAMS {
+    background-image: linear-gradient(to bottom, #005AFF, #FFFFFF);
+
+    padding: 0.4vw;
+}
+
+
+
+
+/***für alle***/
+.team-box {
+    display: grid;
+    grid-template-columns: 30% 20% 20% 28%;
+
+}
+
+#text1{
+    grid-column: 1;
+    margin-top: 4vh;
+
+
+    display: grid;
+    grid-template-columns: 40% 10% 40%;
+}
+#text1 .h4{
+    grid-column: 1;
+    margin: 0;
+
+    height: 10%;
+}
+#text1 .p{
+    grid-column: 3;
+    height: 10%;
+}
+
+#text2{
+    grid-column: 4;
+    margin-top: 4vh;
+
+    display: grid;
+    grid-template-columns: 40% 10% 40%;
+}
+#text2 .h4{
+    grid-column: 1;
+    margin: 0;
+}
+#text2 .p{
+    grid-column: 3;
+}
+
+
+#bild1{
+    grid-column: 2;
+    height: 70%;
+    width: 100%;
+}
+#bild1 img{
+    width: 19vw;
+    height: 43vh;
+}
+#bild2{
+    grid-column: 3;
+    height: 70%;
+    width: 100%;
+}
+#bild2 img{
+    width: 19vw;
+    height: 43vh;
+}
+
+@media (max-width: 600px) {
+	body{
+		overflow-x: hidden;
+	}
+	
+	nav{
+		width: 100%;
+		position: fixed;
+	}
+	.nav-menu{
+		display: block;
+		margin-right: 4vw;
+	}
+    .content{
+        margin-top: 25vh;
+    }
+
+    .team-box{
+        width: 100%;
+        grid-template-columns: 104%;
+        grid-template-rows: 20% 20% 20% 20%;
+        gap: 0px;
+    }
+
+    #bild1{
+        grid-column: 1;
+        grid-row: 1;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    #text1{
+        margin-top: 0;
+        padding-top: 0;
+        grid-column: 1;
+        grid-row: 2;
+        
+    }
+
+    #bild2{
+        grid-column:1;
+        grid-row: 3;
+
+        padding-top: 14vh;
+    }
+
+    #text2{
+        grid-column: 1;
+        grid-row: 4;
+        padding-top: 14vh;
+
+        margin-bottom: 1px;
+        padding-bottom: 1px;
+    }
+    #bild1 img{
+        width: 70vw;
+    }
+    #bild2 img{
+        width: 70vw;
+    }
+
+
+}
+
+
+
+
+

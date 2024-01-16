@@ -1,0 +1,319 @@
+/********************BODY**********************/
+body{
+  margin: 0;
+}
+
+#content{
+  margin-top: 100px;
+  z-index: 1;
+}
+
+/* Stil für die Navigation */
+
+@font-face {
+  font-family: Raleway;
+  src: url(./../font/Raleway.woff);
+}
+*{
+  font-family: Raleway;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff; /* Hintergrundfarbe der Navigation */
+    padding: 0px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Schatten um die Navigation */
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; /* optional, falls die Navigation über anderen Inhalten liegen soll */
+    
+  }
+  
+  /* Stil für den linken Teil der Navigation */
+  nav{
+    position: fixed;
+  }
+  .nav-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Stil für den Namen in der Navigation */
+  .nav-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333; /* Farbe des Namens */
+    margin-left: 10px;
+  }
+  
+  /* Stil für das Menü in der Navigation */
+  .nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Stil für die einzelnen Menüpunkte */
+  .nav-menu li {
+    position: relative;
+  }
+  
+  /* Stil für die Links in den Menüpunkten */
+  .nav-menu li a {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  /* Stil für den Hover-Effekt */
+  .nav-menu li:hover > .sub-menu {
+    display: block;
+  }
+  
+  /* Stil für das Dropdown-Menü */
+  .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1; /* Stellt sicher, dass das Dropdown-Menü vor anderen Elementen angezeigt wird */
+  }
+  
+  /* Stil für die einzelnen Menüpunkte im Dropdown-Menü */
+  .sub-menu li {
+    width: 200px;
+  }
+  
+  /* Stil für die Links in den Menüpunkten im Dropdown-Menü */
+  .sub-menu li a {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  /* Stil für den Hover-Effekt in den Menüpunkten im Dropdown-Menü */
+  .sub-menu li:hover a {
+    color: #fff; /* Textfarbe ändert sich auf Weiß */
+    background-color: #e30613; /* Hintergrundfarbe ändert sich auf Rot */
+  }
+  
+  .Saison-Drop-Down{
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    padding: 10px 20px;
+    margin-left: 5px;
+    text-decoration: none;
+  }
+  
+  
+  .sub-menu > li {
+  position: relative;
+  }
+  .sub-menu > li > ul {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  display: none;
+  }
+  .sub-menu > li:hover > ul {
+  display: block;
+  }
+
+
+#platzhalter{
+  margin-right: 5vw;
+}
+
+/****************Start**************/
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 50%;
+  height: auto;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.text {
+  width: 50%;
+  margin-left: 20px;
+}
+
+#standings{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.meisterschaft {
+  background-color: #c7c7c7;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+/****************Unterseiten**************/
+
+.bilder{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.bilder img{
+  width: 30vw;
+  height: 100vh;
+}
+
+.headline{
+  font-size: 20px;
+  color: #c30000;
+  margin-top: 4px;
+  text-align: left;
+  font-family: cursive;
+  margin-left: 20px;
+}
+.headline2{
+  font-size: 20px;
+  color: #c30000;
+  margin-top: 4px;
+  text-align: left;
+  font-family: cursive;
+  margin-left: 20px;
+}
+
+.bildergalerie{
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+  margin: 3vw;
+  margin-left: 5vw;
+}
+
+#bildershow1{
+  background-image: url(./../Fotos/BilderGalerie/pic1.jpg);
+
+  width: 42vw;
+
+  animation-name: bildershow1;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  background-size: cover;
+}
+#bildershow1 img{
+  opacity: 0;
+}
+@keyframes bildershow1 {
+  20%{background-image: url(./../Fotos/BilderGalerie/pic2.jpg);}
+  40%{background-image: url(./../Fotos/BilderGalerie/pic3.avif);}
+  60%{background-image: url(./../Fotos/BilderGalerie/pic4.jpg);}  
+  80%{background-image: url(./../Fotos/BilderGalerie/pic5.jpg);}
+  100%{background-image: url(./../Fotos/BilderGalerie/pic6.jpg);}
+}
+
+#bildershow2{
+  background-image: url(./../Fotos/BilderGalerie2/img1.avif);
+
+  width: 42vw;
+
+  animation-name: bildershow2;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  background-size: cover;
+}
+#bildershow2 img{
+  opacity: 0;
+}
+@keyframes bildershow2 {
+  20%{background-image: url(./../Fotos/BilderGalerie2/img2.avif);}
+  40%{background-image: url(./../Fotos/BilderGalerie2/img3.jpg);}
+  60%{background-image: url(./../Fotos/BilderGalerie2/img4.jpg);}  
+  80%{background-image: url(./../Fotos/BilderGalerie2/img5.jpg);}
+  100%{background-image: url(./../Fotos/BilderGalerie2/pic6.avif);}
+  }
+
+
+
+@media (max-width: 1100px) {
+  .container{
+    grid-template-columns: 100%;
+  }
+
+}
+@media (max-width: 600px) {
+  body{
+    overflow-x: hidden;
+  }
+
+  nav{
+    width: 47%;
+    position: fixed;
+  }
+
+
+  .nav-menu{
+    display: block;
+    margin-right: 4vw;
+  }
+
+
+  .headline{
+    margin-top: 25vh;
+  }
+  .container{
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 90%;
+  }
+  .text{
+    width: 100%;
+    padding-right: 5vw;
+  }
+  #hallo img{
+    visibility: hidden;
+    position: absolute;
+  }
+
+
+  .bilder{
+    grid-template-columns: 100%;
+    width: 46%;
+  }
+  .bilder img{
+    width: 90vw;
+    height: 50vh;
+  }
+
+  .bildergalerie{
+    grid-template-columns: 100%;
+    width: 100%;
+  }
+  #bildershow1{
+    width: 90%;
+    margin-bottom: 1vh;
+  }
+  #bildershow2{
+    width: 90%;
+  }
+  .bildergalerie img{
+    width: 100%;
+  }
+
+}

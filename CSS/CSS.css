@@ -1,0 +1,62 @@
+/* Stil für den Hintergrund der Seite */
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+/********************BODY**********************/
+
+#content{
+  margin-top: 100px;
+  z-index: 1;
+}
+/****************Start**************/
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 50%;
+  height: auto;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.text {
+  width: 50%;
+  margin-left: 20px;
+}
+
+#standings{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.meisterschaft {
+  background-color: #c7c7c7;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+/****************Unterseiten**************/
+
+.headline{
+  font-size: 20px;
+  color: #c30000;
+  margin-top: 4px;
+  text-align: left;
+  font-family: cursive;
+  margin-left: 20px;
+}
+
+p{
+  font-size: 1rem;
+  line-height: 1.5;
+}

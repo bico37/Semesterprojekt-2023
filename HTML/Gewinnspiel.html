@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=+, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../CSS/Kontaktformular.css">
+</head>
+
+<body>
+    <div class="background">
+        <div class="background-image"></div>
+    </div>
+
+    <div class="content">
+
+        <div class="gewinnspiel">
+            <a href="./HTML.html"><-- Back</a>
+          </div>
+
+        <div class="formular">
+            <div class="text">
+                <h1>Formular 1 Gewinnspiel</h1>
+                <p>Gewinne eine aufregende Formel-1-Reise</p>
+                <p>Österreich, VIP-Preise.</p>
+                <p>Spüre die Geschwindigkeit, hör das Dröhnen,</p>
+                <p>Jetzt teilnehmen für ein unvergessliches Erlebnis gewinnen!</p>
+            </div>
+            
+            <form action="./HTML.html" id="ft-form" method="POST" accept-charset="UTF-8">
+                <fieldset>
+                    <label>
+                        Name
+                        <input type="text" name="Name" required>
+                    </label>
+                    <label>
+                        E-Mail-Adresse
+                        <input type="email" name="E-Mail" required>
+                    </label>
+                    <label>
+                        Warum möchten sie dabei sein?
+                        <textarea rows="3" name="Nachricht" required></textarea>
+                    </label>
+                    <div>
+                        <label>
+                            <input type="checkbox" name="Datenverarbeitung bestätigt" value="Ja" required>
+                            Ich bestätige, dass ich über 18 bin.
+                        </label>
+                    </div>
+                </fieldset>
+                <div class="btns">
+                    <input type="text" name="_gotcha" value="" style="display:none;">
+                    <input type="submit" value="Absenden">
+                </div>
+            </form>
+    
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saison</title>
+    <link rel="stylesheet" href="./../CSS/Allgemein.css">
+    <link rel="stylesheet" href="./../CSS/Nav.css">
+    <link rel="stylesheet" href="./../CSS/Saison.css">
+    <link rel="stylesheet" href="./../CSS/footer.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+          <a href="https://www.formula1.com"><img src="./../Fotos/Icons/NAV/Formular1_Logo_navi.png" alt="Logo" width="100px" height="90px"></a>
+          <a href="https://www.formula1.com" class="nav-name">Formel 1</a>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="./HTML.html">Home</a></li>
+          <li><a href="./Saison.html">Saison</a>
+          <ul class="sub-menu">
+            <li>
+              <a href="./Saison.html">Saison</a>
+            </li>
+            <ul class="Saison-Drop-Down">
+              <li><a href="./Saison.html#Bahrain">1. Bahrain</a></li>
+              <li><a href="./Saison.html#Saudi-Arabien">2. Saudi-Arabien</a></li>
+              <li><a href="./Saison.html#Australien">3. Australien</a></li>
+              <li><a href="./Saison.html#Aserbaidschan">4. Aserbaidschan</a></li>
+              <li><a href="./Saison.html#Miami">5. Miami</a></li>
+              <li><a href="./Saison.html#Emilia-Romagna">6. Emilia-Romagna</a></li>
+              <li><a href="./Saison.html#Monaco">7. Monaco</a></li>
+              <li><a href="./Saison.html#Spanien">8. Spanien</a></li>
+              <li><a href="./Saison.html#Kanada">9. Kanada</a></li>
+              <li><a href="./Saison.html#Österreich">10. Österreich</a></li>
+              <li><a href="./Saison.html#Großbritannien">11. Großbritannien</a></li>
+              <li><a href="./Saison.html#Ungarn">12. Ungarn</a></li>
+              <li><a href="./Saison.html#Belgien">13. Belgien</a></li>
+              <li><a href="./Saison.html#Niederlande">14. Niederlande</a></li>
+              <li><a href="./Saison.html#Italien">15. Italien</a></li>
+              <li><a href="./Saison.html#Singapur">16. Singapur</a></li>
+              <li><a href="./Saison.html#Japan">17. Japan</a></li>
+              <li><a href="./Saison.html#Katar">18. Katar</a></li>
+              <li><a href="./Saison.html#USA">19. USA</a></li>
+              <li><a href="./Saison.html#Mexiko">20. Mexiko</a></li>
+              <li><a href="./Saison.html#São-Paulo">21. São Paulo</a></li>
+              <li><a href="./Saison.html#Las-Vegas">22. Las Vegas</a></li>
+              <li><a href="./Saison.html#Abu-Dhabi">23. Abu Dhabi</a></li>
+          </ul>
+
+          </ul>
+          <li>
+            <a href="./Teams.html">Teams</a>
+            <ul class="sub-menu">
+              <li><a href="./Teams.html#Mercedes">1. Mercedes</a></li>
+              <li><a href="./Teams.html#Red-Bull">2. Red Bull</a></li>
+              <li><a href="./Teams.html#Ferrari">3. Ferrari</a></li>
+              <li><a href="./Teams.html#McLaren">4. McLaren</a></li>
+              <li><a href="./Teams.html#Aston-Martin">5. Aston Martin</a></li>
+              <li><a href="./Teams.html#Alpine">6. Alpine</a></li>
+              <li><a href="./Teams.html#Alpha-Tauri">7. AlphaTauri</a></li>
+              <li><a href="./Teams.html#Alfa-Romeo">8. Alfa Romeo</a></li>
+              <li><a href="./Teams.html#Haas">9. Haas</a></li>
+              <li><a href="./Teams.html#Williams">10. Williams</a></li>
+            </ul>
+          </li>
+
+          <li><a href="./Fahrer.html">Fahrer</a>
+              <ul class="sub-menu">
+                <li><a href="./Fahrer.html#Mercedes">1. Mercedes</a></li>
+                <li><a href="./Fahrer.html#Red-Bull">2. Red Bull</a></li>
+                <li><a href="./Fahrer.html#Ferrari">3. Ferrari</a></li>
+                <li><a href="./Fahrer.html#McLaren">4. McLaren</a></li>
+                <li><a href="./Fahrer.html#Aston-Martin">5. Aston Martin</a></li>
+                <li><a href="./Fahrer.html#Alpine">6. Alpine</a></li>
+                <li><a href="./Fahrer.html#Alpha-Tauri">7. AlphaTauri</a></li>
+                <li><a href="./Fahrer.html#Alfa-Romeo">8. Alfa Romeo</a></li>
+                <li><a href="./Fahrer.html#Haas">9. Haas</a></li>
+                <li><a href="./Fahrer.html#Williams">10. Williams</a></li>
+              </ul>
+          </li>
+          <div id="platzhalter"></div>
+        </ul>
+    </nav>
+
+
+    <div id="content">
+
+        <div class="gewinnspiel">
+          <a href="./Gewinnspiel.html">Gewinnspiel</a>
+        </div>
+        
+      <h1>Rennen: </h1>
+
+      <div class="grid-container">
+        <div class="grid-item">
+          <div class="card">
+            <div class="card-img">
+              <img id="1" src="./../Fotos/Saison/1.webp" alt="Bild 1" width="400vw" height="319" >
+            </div>
+            <div class="card-info">
+              <div class="subtitle">
+                <h2 id="Bahrain">1. Rennen - Bahrain</h2>
+                <p id="date">Datum: 5. März 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <div class="card-img">
+              <img id="2" src="./../Fotos/Saison/2.jpg" alt="Bild 2" width="320" height="319">
+            </div>
+            <div class="card-info">
+              <div class="subtitle">
+                <h2 id="Saudi-Arabien">2. Rennen - Saudi-Arabien</h2>
+                <p id="date">Datum: 19. März 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <div class="card-img">
+              <img id="3" src="./../Fotos/Saison/3.jpg" alt="Bild 3" width="310" height="319">
+            </div>
+            <div class="card-info">
+              <div class="subtitle">
+                <h2 id="Australien">3. Rennen - Australien</h2>
+                <p id="date">Datum: 2. April 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <div class="card-img">
+              <img id="4" src="./../Fotos/Saison/4.jpg" alt="Bild 4"width="310" height="319">
+            </div>
+            <div class="card-info">
+              <div class="subtitle">
+                <h2 id="Aserbaidschan">4. Rennen - Aserbaidschan</h2>
+                <p id="date">Datum: 30. April 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <div id="5" class="card-img">
+              <img src="./../Fotos/Saison/5.jpg" alt="Bild 5" width="500vw" height="319">
+            </div>
+            <div class="card-info">
+              <div class="subtitle">
+                <h2 id="Miami">5. Rennen - Miami</h2>
+                <p id="date">Datum: 7. Mai 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <div id="6" class="card-img">
+              <img src="./../Fotos/Saison/6.jpg" alt="Bild 6" width="450" height="319">
+            </div>
+            <div class="card-info">
+              <div class="subtitle">
+                <h2 id="Emilia-Romagna">6. Rennen - Emilia-Romagna</h2>
+                <p id="date">Datum: 21. Mai 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <div class="card-img">
+              <img id="7" src="./../Fotos/Saison/7.jpg" alt="Bild 7" width="310vw" height="319">
+            </div>
+            <div class="card-info">
+              <div class="subtitle">
+                <h2 id="Monaco">7. Rennen - Monaco</h2>
+                <p id="date">Datum: 28. Mai 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <div class="card-img">
+              <img id="8" src="./../Fotos/Saison/8.jpg" alt="Bild 8" width="310" height="319">
+            </div>
+            <div class="card-info">
+              <div class="subtitle">
+                <h2 id="Spanien">8. Rennen - Spanien</h2>
+                <p id="date">Datum: 4. Juni 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <div class="card-img">
+              <img id="9" src="./../Fotos/Saison/9.jpg" alt="Bild 9" width="310" height="319">
+            </div>
+            <div class="card-info">
+              <div class="subtitle">
+                <h2 id="Kanada">9. Rennen - Kanada</h2>
+                <p id="date">Datum: 18. Juni 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <div class="card-img">
+              <img id="10" src="./../Fotos/Saison/10.avif" alt="Bild 10" width="310" height="319">
+            </div>
+            <div class="card-info">
+              <div class="subtitle">
+                <h2 id="Österreich">10. Rennen - Österreich</h2>
+                <p id="date">Datum: 2. Juli 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <div class="card-img">
+              <img id="11" src="./../Fotos/Saison/11.jpg" alt="Bild 11" width="310" height="319">
+            </div>
+            <div class="card-info">
+              <div class="subtitle">
+                <h2 id="Großbritannien">11. Rennen - Großbritannien</h2>
+                <p id="date">Datum: 9. Juli 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <div class="card-img">
+              <img id="12" src="./../Fotos/Saison/12.jpg" alt="Bild 12" width="310" height="319">
+            </div>
+            <div class="card-info">
+              <div class="subtitle">
+                <h2 id="Ungarn">12. Rennen - Ungarn</h2>
+                <p id="date">Datum: 23. Juli 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <div class="card-img">
+              <img id="13" src="./../Fotos/Saison/13.jpg" alt="Bild 13" width="310" height="319">
+            </div>
+            <div class="card-info">
+              <div class="subtitle">
+                <h2 id="Belgien">13. Rennen - Belgien</h2>
+                <p id="date">Datum: 30. Juli 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <div class="card-img">
+              <img id="14" src="./../Fotos/Saison/14.jpg" alt="Bild 14" width="310" height="319">
+            </div>
+            <div class="card-info">
+              <div class="subtitle">
+                <h2 id="Niederlande">14. Rennen - Niederlande</h2>
+                <p id="date">Datum: 6. August 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <div class="card-img">
+              <img id="15" src="./../Fotos/Saison/15.jpg" alt="Bild 15" width="310" height="319">
+            </div>
+            <div class="card-info">
+              <div class="subtitle">
+                <h2 id="Italien">15. Rennen - Italien</h2>
+                <p id="date">Datum: 20. August 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <div class="card-img">
+              <img id="16" src="./../Fotos/Saison/16.jpg" alt="Bild 16" width="310" height="319">
+            </div>
+            <div class="card-info">
+              <div class="subtitle">
+                <h2 id="Russland">16. Rennen - Russland</h2>
+                <p id="date">Datum: 27. August 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <div class="card-img">
+              <img id="17" src="./../Fotos/Saison/17.jpg" alt="Bild 17" width="310" height="319">
+            </div>
+            <div class="card-info">
+              <div class="subtitle">
+                <h2 id="Singapur">17. Rennen - Singapur</h2>
+                <p id="date">Datum: 17. September 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <div class="card-img">
+              <img id="18" src="./../Fotos/Saison/18.jpg" alt="Bild 18" width="310" height="319">
+            </div>
+            <div class="card-info">
+              <div class="subtitle">
+                <h2 id="Japan">18. Rennen - Japan</h2>
+                <p id="date">Datum: 24. September 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <div class="card-img">
+              <img id="19" src="./../Fotos/Saison/19.jpg" alt="Bild 19" width="310" height="319">
+            </div>
+            <div class="card-info">
+              <div class="subtitle">
+                <h2 id="USA">19. Rennen - USA</h2>
+                <p id="date">Datum: 8. Oktober 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <div class="card-img">
+              <img id="20" src="./../Fotos/Saison/20.jpg" alt="Bild 20" width="310" height="319">
+            </div>
+            <div class="card-info">
+              <div class="subtitle">
+                <h2 id="Mexiko">20. Rennen - Mexiko</h2>
+                <p id="date">Datum: 22. Oktober 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <div class="card-img">
+              <img id="21" src="./../Fotos/Saison/21.jpg" alt="Bild 21" width="310" height="319">
+            </div>
+            <div class="card-info">
+              <div class="subtitle">
+                <h2 id="São-Paulo">21. Rennen - São-Paulo</h2>
+                <p id="date">Datum: 5. November 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <div class="card-img">
+              <img id="22" src="./../Fotos/Saison/22.webp" alt="Bild 22" width="310" height="319">
+            </div>
+            <div class="card-info">
+              <div class="subtitle">
+                <h2 id="Las-Vegas">22. Rennen - Las-Vegas</h2>
+                <p id="date">Datum: 18. November 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <div class="card">
+            <div class="card-img">
+              <img id="23" src="./../Fotos/Saison/23.jpg" alt="Bild 23" width="310" height="319">
+            </div>
+            <div class="card-info">
+              <div class="subtitle">
+                <h2 id="Abu-Dhabi">23. Rennen - Abu-Dhabi</h2>
+                <p id="date">Datum: 26. November 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+<footer>
+  <div class="grid">
+    <div id="row1">
+      <p>Erik Bergmair</p>
+      <p>Sommerprojekt</p>
+      <p>2023</p>
+    </div>
+    <div id="row2">
+      <p>e.bergmair@students.htl-leonding.ac.at</p>
+      <p>HTL Leonding - 1BHITM</p>
+      <p>Limesstraße 12/14, 4060 Leonding</p>
+    </div>
+    <div id="row3">
+      <a href="https://www.formula1.com/" class="icon-link">
+        <div class="icon">
+          <img src="./../Fotos/Icons/Footer/5a3550e2b3f3d3.7086462115134435547371.png" alt="icon">
+          <span id="text">Webseite</span>
+        </div>
+      </a>
+      <a href="https://www.instagram.com/f1/" class="icon-link">
+        <div class="icon">
+          <img src="./../Fotos/Icons/Footer/vecteezy_instagram-logo-png-instagram-icon-transparent_18930413_874.png" alt="Icon">
+          <span id="text">Instagram</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</footer>
+</html>
