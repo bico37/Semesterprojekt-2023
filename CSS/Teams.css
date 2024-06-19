@@ -170,6 +170,8 @@ p{
 .picture img{
     width: 20vw;
     height: 45vh;
+
+    object-fit: cover;
 }
 
 
@@ -196,6 +198,8 @@ p{
 #photocar img{
     width: 47vw;
     height: 30vh;
+
+    object-fit: cover;
 }
 #textcar{
     grid-column: 2;
@@ -221,7 +225,7 @@ p{
 	}
 	
 	nav{
-		width: 70%;
+		width: 100%;
 		position: fixed;
 	}
 	.nav-menu{

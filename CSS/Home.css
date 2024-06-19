@@ -216,8 +216,11 @@ nav {
   animation-duration: 30s;
   animation-iteration-count: infinite;
   background-size: cover;
+  object-fit: cover;
+
 }
 #bildershow1 img{
+  object-fit: cover;
   opacity: 0;
 }
 @keyframes bildershow1 {
@@ -237,9 +240,13 @@ nav {
   animation-duration: 30s;
   animation-iteration-count: infinite;
   background-size: cover;
+  object-fit: cover;
+
 }
 #bildershow2 img{
   opacity: 0;
+  object-fit: cover;
+
 }
 @keyframes bildershow2 {
   20%{background-image: url(./../Fotos/BilderGalerie2/img2.avif);}
@@ -263,7 +270,7 @@ nav {
   }
 
   nav{
-    width: 47%;
+    width: 100%;
     position: fixed;
   }
 
